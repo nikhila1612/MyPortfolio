@@ -58,7 +58,7 @@ filter: invert(1);
     padding-top: 7%;
     
 }
-.left img{
+.center .left img{
     border-radius: 10px;
     margin: 15% 0%;
     margin-left: 29%;
@@ -69,13 +69,13 @@ filter: invert(1);
     animation-duration: 1s;
     box-shadow: 5px 4px 5px rgb(148, 144, 144);  
 }
-.right{
+.center .right{
     margin-right: 8%;
     margin-left: -130px;
     animation:fadeInRight;
     animation-duration: 1s;
 }
-.right h3{
+.center .right h3{
     font-size: 2rem;
     font-weight: 600;
     color: #000000;
@@ -89,7 +89,7 @@ filter: invert(1);
     font-weight: 700;
     text-shadow: 4px 3px 4px rgb(148, 144, 144);   
 }
-.right h6{
+.center .right h6{
     font-size: 1em;
     color: #507590;
     text-shadow: 4px 3px 4px rgb(148, 143, 143);      
@@ -378,7 +378,7 @@ body{
    margin-right:80px;
   
 }  
-.left img{
+.center .left img{
     margin-top:265px;
     margin-right:140px;
     width: 95%;
