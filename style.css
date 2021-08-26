@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif; 
+}
+/**************************************************LANDING-PAGE*****************************************************************************/
+.navbar-custom {
+   background: #232526;  
+   background: -webkit-linear-gradient(to bottom, #232526, #414345);  
+   background: linear-gradient(to bottom, #232526, #414345);
+}
+.navbar-brand
+{
+    font-family: 'Merriweather', serif;
+    color:grey;
+    font-size: 33px;
+  
+}
+.navcolour .navbar-nav .nav-link{
+    color: white;
+    padding-right: 25px;
+}
+.navcolour .navbar-nav .nav-link:hover{
+  color:#928DAB ;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.main{
+  
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+}
+.align{
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    padding-top: 7%;
+    
+}
+.left img{
+    border-radius: 10px;
+    margin: 15% 0%;
+    margin-left: 29%;
+    margin-right: 25%;
+    width:38%;
+    height: 35%;
+    animation:slideInLeft;
+    animation-duration: 1s;
+    box-shadow: 5px 4px 5px rgb(148, 144, 144);  
+}
+.right{
+    margin-right: 8%;
+    margin-left: -130px;
+    animation:slideInRight;
+    animation-duration: 1s;
+}
+.right h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 7px;
+    text-shadow: 4px 3px 4px rgb(148, 144, 144);  
+}
+.center .right h1{
+    font-size: 3rem;
+    color: #3f3a3a;
+    margin-bottom: 12px;
+    font-weight: 700;
+    text-shadow: 4px 3px 4px rgb(148, 144, 144);   
+}
+.right h6{
+    font-size: 1em;
+    color: #507590;
+    text-shadow: 4px 3px 4px rgb(148, 143, 143);      
+}
+/**************************************************END-OF-LANDING-PAGE************************************************************************/
+
+/*********************************************************ABOUT*****************************************************************************/
+
+section.about .container{
+    padding:185px 0px;
+    padding-left:9%;
+    padding-right: -10px;
+}
+section.about .container .left h1{
+   margin-right: 20px;
+   font-size: 47px;
+   font-weight: 80;
+   background: linear-gradient(90deg, #000, #fff, #000);
+   letter-spacing: 5px;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-repeat: 1 ;
+   background-size: 80%;
+   animation: shine 5s linear infinite;  
+}
+.about .container .right{
+   margin-left: 10px;
+   padding-left: 30px;
+   margin-right: 50px;  
+}
+.about .container .right h3{
+   font-family: 'Source Sans Pro', sans-serif;
+   text-shadow: 2px 2px 3px rgb(173, 170, 170);  
+   padding-bottom: 7px;
+   word-spacing: 2.3px;
+   letter-spacing: 1.5px;
+}
+.about table tr td{
+   line-height: 38px;
+   word-spacing: 2px;
+   padding-left: 10px;
+   font-family: 'Padauk', sans-serif;
+   font-size: 18px;
+} 
+#space{
+    padding-bottom: 17px;
+}
+.checked {
+   color: rgb(251, 255, 0);
+}
+/*****************************************************END-OF-ABOUT*****************************************************************************/
+
+/*******************************************************SKILLS*****************************************************************************/
+section.skill{
+   padding:60px 0px;
+   padding-bottom: 60px;
+}
+section.skill .left{
+   margin-left: 50px;
+   padding:60px 45px;
+   padding-right: 20px;
+}
+section.skill .right h1{
+   padding-bottom: 20px;
+   margin-left: 80px;
+   font-size: 47px;
+   font-weight: 80;
+   background: linear-gradient(90deg, #000, #fff, #000);
+   letter-spacing: 5px;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-repeat: 1 ;
+   background-size: 80%;
+   animation: shine 5s linear infinite;
+}
+section.skill table{
+    font-size: 25px;
+    margin-right: 280px;
+    margin-left:-200px;
+}
+section.skill table th{
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    font-family: 'Kaisei Tokumin', serif;
+}
+section.skill table td{
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+/******************************************************END-OF-SKILLS************************************************************************/
+
+/*********************************************************WORKS*****************************************************************************/
+section.works .container{
+    padding: 110px 0px;
+    padding-right: 170px;
+    padding-bottom: 200px;
+}
+section.works .headwork {
+    padding-bottom:80px;
+    padding-top:20px;
+    padding-left:170px;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 80;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: 1 ;
+    background-size: 80%;
+    animation: shine 7s linear infinite;
+}
+@keyframes shine {
+0% {
+  background-position-x: -500%;
+}
+100% {
+  background-position-x: 500%;
+}
+}
+section.works .card{
+    position: static;
+    text-align: center;
+    transition: all .3s ease;
+    box-shadow: 1px 2px 5px black;
+    padding: 2px;
+}
+
+section.works  .card h5{
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    border-bottom: 2px solid rgb(161, 161, 161);
+}
+section.works  .card p{
+   font-weight: 160;
+   color:#5a83af;
+   padding-top: 10px;
+   line-height: 1.5;
+   font-size: 17px;
+   padding-bottom: -20px;
+   font-family: 'Padauk', sans-serif;
+}
+section.works  .card:hover{
+    background-color:black ;
+}
+section.works  .card:hover h5,section.works .card:hover p{
+    color: white ;
+}
+
+/**************************************************END-OF-WORKS*****************************************************************************/
+
+/****************************************************CONTACT*****************************************************************************/
+section.contact {
+   padding-top: 85px;
+   padding-bottom: 30px;
+}
+section.contact .heading{
+    font-family: 'Lato', sans-serif;
+    color:black;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 47px;
+    font-weight: 80;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: 1 ;
+    background-size: 80%;
+    animation: shine 7s linear infinite;
+}
+section.contact .card{
+    position: static;
+    align-items: center;
+    padding: 2px;
+    background:none;
+    border: none;
+}
+section.contact .card a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: lightslategrey;
+}
+section.contact .card-title{
+    margin-bottom:-50px;
+}
+section.contact .card a:hover{
+    color: rgb(71, 71, 255)  ;
+}
+section.contact .input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    padding-left:  3rem;
+    padding-right: 3rem ;
+    font-size: 1rem;
+}
+section.contact .input input{
+    padding: 0.2rem;
+    padding-left: 0.4rem;
+    padding-top: 0.3rem;
+    border: 1px solid lightslategrey;
+    font-size: 0.9rem;
+}
+section.contact .input1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left:  3rem;
+    padding-right: 3rem ;
+}
+section.contact .input1 input{
+    padding: 0.2rem;
+    margin-bottom: 2rem;
+    padding-left: 0.4rem;
+    border: 1px solid lightslategrey;
+    font-size: 0.9rem;
+}
+section.contact .input1 textarea {
+    padding: 0.5rem;
+    border: 1px solid lightslategrey;
+    font-size: 1rem;
+    font-weight: 2px;
+}
+section.contact input:focus,section.contact .input1 textarea:focus{
+    outline: none;
+}
+
+/**************************************************END-OF-CONTACT*****************************************************************************/
+
+/******************************************************FOOTER*******************************************************************************/
+.myfooter{
+     background-color: #232526;
+     height: 130px;
+}
+.myfooter h3{
+     color: rgb(255, 244, 244);
+     padding-top: 3px;
+     font-size: 18px;
+     text-align: center;
+     font-family: 'Crimson Pro', serif;
+   
+}
+
+.myfooter h4{
+     color: rgb(255, 255, 255);
+     padding-top: 40px;
+     font-size: 15px;
+     text-align: center;
+     text-shadow: 0px 1px 2px rgb(99, 94, 94);
+   
+}
+/**************************************************END-OF-FOOTER*****************************************************************************/
+
+@media screen and (max-width: 480px){
+body{
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.navbar-brand
+{
+    font-family: 'Merriweather', serif;
+    color:grey;
+    font-size: 50px;
+    padding-top:2px;
+    margin-left:20px;
+}
+
+.navbar-custom{
+    font-size: 34px;
+}
+
+
+.center{
+   display: inline;
+   margin-right:80px;
+  
+}  
+.left img{
+    margin-top:205px;
+    margin-right:140px;
+    width: 95%;
+    height: 93%;
+    border-radius: 7px;
+
+}
+.center .right{
+    margin-left: 40px;
+    padding-left: 75px;
+    margin-bottom: 60px;
+    animation:slideInLeft;
+    animation-duration: 1s;
+    
+}
+ .center .right h3{
+    font-size: 55px;
+    color: #000000;
+    text-shadow: 4px 3px 4px rgb(148, 144, 144);  
+    
+} 
+.center .right h1{
+    font-size: 58px;
+    font-weight: 700;
+    color: #3f3a3a;
+    text-shadow: 4px 3px 4px rgb(148, 144, 144);  
+}
+
+.center .right h6{
+    font-size: 30px;
+    color: #676b6d;
+    text-shadow: 4px 3px 4px rgb(148, 144, 144);  
+
+}
+section.about .container{
+   display: inline;  
+  
+}
+section.about .container .left h1{
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-top: 50px;
+    font-size: 67px;
+    font-weight: 400;
+    margin-top: 80px;
+    
+ }
+ .about .container .right{
+    margin-left: 10px;
+    padding-left: 50px;
+    margin-right: 50px; 
+    margin-bottom: 80px;
+ }
+ .about .container .right h3{
+    
+    text-shadow: 3px 3px 4px rgb(173, 170, 170);  
+    padding-bottom: 15px;
+    word-spacing: 2.3px;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+ }
+ .about table{
+    
+     border: 5px double rgb(148, 143, 143);
+     background-color: rgb(255, 251, 251);
+     box-shadow:  18px 15px 20px rgb(150, 141, 141) ;
+ }
+ .about table tr td{
+    border-bottom: 2px solid rgb(95, 89, 89);
+    line-height: 45px;
+    word-spacing: 2px;
+    padding: 8px;
+    font-family: 'Padauk', sans-serif;
+    font-size: 26px;
+ } 
+ .about table tr th{
+     font-size: 29px;
+     font-weight: 900;
+     padding:25px;
+     border-bottom: 2px solid rgb(95, 89, 89);
+ }
+
+
+ section.skill .container {
+     margin-top: 185px;
+     margin-left:240px;
+ }
+ section.skill .container .left{
+    padding-left: 80px;
+    
+ }
+ section.skill .container .right{
+    margin-right: 230px;
+ }
+ section.skill .container.right h1{
+    padding-bottom: 50px;
+
+     padding-left:0px;
+    font-size: 47px;
+    font-weight: 550;
+    
+   
+ }
+ section.skill .container table{
+     font-size: 35px;
+     display: inline;
+     padding-right: 0px;
+     padding-left: 130px;
+    
+ }
+ section.skill .container table th{
+    padding-bottom: 50px; 
+    padding-left: 0px;
+ }
+ section.skill .container table td{
+    padding-left: 0px;
+    padding-right: 0px;
+   
+ }
+
+
+ 
+section.works .headwork {
+   padding-left: 0px;
+  padding-right: 250px;
+  padding-bottom: 70px;
+  padding-top: 90px;
+  margin-left: 220px;
+  font-weight: 500;
+  font-size: 50px;
+ 
+}
+section.works .card{
+    position: static;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+ 
+}
+
+section.works  .card h5{
+    font-weight: 500;
+    padding:10px;
+    padding-bottom: 10px;
+    
+    font-size: 34px;
+ 
+}
+section.works  .card p{
+   font-weight: 160;
+   color:#5a83af;
+   padding-top: 10px;
+   line-height: 1.5;
+   font-size: 17px;
+   padding-bottom: -20px;
+   font-family: 'Padauk', sans-serif;
+}
+
+.myfooter{
+    background-color: #232526;
+    height: 130px;
+    width: 740px;
+}
+.myfooter h3{
+    color: rgb(255, 244, 244);
+    padding-top: 3px;
+    font-size: 28px;
+    text-align: center;
+   
+}
+
+.myfooter h4{
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgb(99, 94, 94);
+}
+section.contact {
+    
+    margin-bottom:180px;
+  width:500px;
+    padding-bottom: 40px;
+ margin-top: 100px;
+ padding-top: 90px;
+    margin-left: 110px;
+    
+   
+ 
+}
+ section.contact .heading{
+     font-family: 'Lato', sans-serif;
+     color:black;
+     text-align: center;
+     padding-bottom: 32px;
+     font-size: 59px;
+     font-weight: 80;
+     padding-top: 70px;
+ }
+ section.contact .card{
+    display: inline;   
+  
+ }
+ section.contact .card img{
+     margin-left: 44px;
+     width: 50px;
+     height: 50px;
+ }
+ section.contact .card a{
+     font-size: 24px;
+     text-decoration: none;
+     color: lightslategrey;
+    margin-right:30px;
+    margin-left: 30px;
+    display:flex;
+    text-align: center;
+    margin-top:-36px;
+ }
+ section.contact .card-title{
+    display: none;
+ }
+ 
+ section.contact .input{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 1rem;
+     margin-bottom: 0.5rem;
+     padding: 1rem;
+     padding-left:  3rem;
+     padding-right: 3rem ;
+     font-size: 1rem;
+ }
+ section.contact .input input{
+   
+     padding: 0.3rem;
+     padding-left: 0.5rem;
+     border: 1px solid lightslategrey;
+     font-size: 1rem;
+ }
+ section.contact .input1 {
+     display: flex;
+     flex-direction: column;
+     padding: 1rem;
+     padding-left:  3rem;
+     padding-right: 3rem ;
+     
+ }
+ section.contact .input1 input{
+     padding: 0.2rem;
+     margin-bottom: 2rem;
+     padding-left: 0.4rem;
+     border: 1px solid lightslategrey;
+     font-size: 1.4rem;
+ }
+ section.contact .input1 textarea {
+     padding: 0.5rem;
+     border: 1px solid lightslategrey;
+     font-size: 1.4rem;
+     font-weight: 2px;
+ }
+ section.contact .btn-custom{
+     font-size: 25px;
+     background-color:#232526 ;
+     color: white;
+ }
+
+}
