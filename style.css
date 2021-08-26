@@ -476,8 +476,7 @@ section.about .container .left h1{
  }
  section.skill .container.right h1{
     padding-bottom: 50px;
-
-     padding-left:0px;
+    padding-left:0px;
     font-size: 47px;
     font-weight: 550;
     
@@ -541,7 +540,7 @@ section.works  .card p{
 .myfooter{
     background-color: #232526;
     height: 130px;
-    width: 748px;
+    width: 750px;
 }
 .myfooter h3{
     color: rgb(255, 244, 244);
