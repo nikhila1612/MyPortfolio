@@ -439,7 +439,7 @@ section.about .container .left h1{
  .about .container .right h3{
     
     text-shadow: 4px 3px 4px rgb(148, 144, 144);   
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     word-spacing: 2.3px;
     letter-spacing: 1.5px;
     font-size: 60px;
@@ -459,10 +459,10 @@ section.about .container .left h1{
     word-spacing: 2px;
     padding: 8px;
     font-family: 'Padauk', sans-serif;
-    font-size: 26px;
+    font-size: 28px;
  } 
  .about table tr th{
-     font-size: 29px;
+     font-size: 32px;
      font-weight: 900;
      padding:25px;
      border-bottom: 2px solid rgb(95, 89, 89);
