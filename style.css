@@ -525,12 +525,12 @@ section.works .card{
     text-align: center;
     padding: 2px;
     margin-bottom: 50px;
-    margin-left: 70px;
+    margin-left: 120px;
  
 }
 section.works .container .card-size{
-    width:40rem;
-    height: 23rem;
+    width:34rem;
+   
 }
 
 section.works  .card h5{
