@@ -517,7 +517,7 @@ section.works .headwork {
    padding-left: 0px;
   padding-right: 320px;
   padding-bottom: 70px;
-  padding-top: 30px;
+  padding-top: 60px;
   margin-left: 260px;
   font-weight: 500;
   font-size: 78px;
@@ -553,7 +553,7 @@ section.works  .card a{
 }
 section.contact {
     
-    margin-bottom:70px;
+    margin-bottom:100px;
     width:500px;
     padding-bottom: 10px;
     padding-top: 15px;
@@ -564,7 +564,7 @@ section.contact {
      font-family: 'Lato', sans-serif;
      color:black;
      text-align: center;
-     padding-bottom: 55px;
+     padding-bottom: 60px;
      font-size: 70px;
     
      
