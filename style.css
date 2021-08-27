@@ -555,7 +555,7 @@ section.contact {
     margin-bottom:60px;
     width:500px;
     padding-bottom: 10px;
-    padding-top: 90px;
+    padding-top: 100px;
     width: 45rem;
     margin-left: 60px;
 }
@@ -563,8 +563,8 @@ section.contact {
      font-family: 'Lato', sans-serif;
      color:black;
      text-align: center;
-     padding-bottom: 32px;
-     font-size: 67px;
+     padding-bottom: 45px;
+     font-size: 70px;
      font-weight: 80;
      
  }
