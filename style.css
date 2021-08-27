@@ -552,10 +552,10 @@ section.works  .card a{
 }
 section.contact {
     
-    margin-bottom:60px;
+    margin-bottom:70px;
     width:500px;
     padding-bottom: 10px;
-    padding-top: 100px;
+    padding-top: 80px;
     width: 45rem;
     margin-left: 60px;
 }
@@ -565,7 +565,7 @@ section.contact {
      text-align: center;
      padding-bottom: 45px;
      font-size: 70px;
-     font-weight: 80;
+     font-weight: 600;
      
  }
  section.contact .card{
