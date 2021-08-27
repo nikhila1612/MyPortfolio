@@ -447,7 +447,9 @@ section.about .container .left h1{
  .about table{
     
      border: 5px double rgb(148, 143, 143);
-     background-color: rgb(255, 251, 251);
+     background: #ECE9E6;  
+     background: -webkit-linear-gradient(to left, #ECE9E6, #FFFFFF); 
+     background: linear-gradient(to left, #ECE9E6, #FFFFFF);
      box-shadow:  18px 15px 20px rgb(150, 141, 141) ;
  }
  .about table tr td{
