@@ -509,7 +509,7 @@ section.about .container .left h1{
  }
 section.works .container{
     padding: 110px 0px;
-    padding-bottom: 140px;
+    padding-bottom: 190px;
 }
 
  
@@ -556,7 +556,7 @@ section.contact {
     margin-bottom:70px;
     width:500px;
     padding-bottom: 10px;
-    padding-top: 80px;
+    padding-top: 50px;
     width: 45rem;
     margin-left: 60px;
 }
@@ -564,9 +564,9 @@ section.contact {
      font-family: 'Lato', sans-serif;
      color:black;
      text-align: center;
-     padding-bottom: 45px;
+     padding-bottom: 55px;
      font-size: 70px;
-     font-weight: 600;
+    
      
  }
  section.contact .card{
