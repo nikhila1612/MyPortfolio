@@ -555,38 +555,14 @@ section.works  .card a{
     font-size: 38px;
 }
 
-.myfooter{
-    background-color: #232526;
-    height: 130px;
-    width: 825px;
-}
-.myfooter h3{
-    color: rgb(255, 244, 244);
-    padding-top: 3px;
-    font-size: 28px;
-    text-align: center;
-   
-}
-
-.myfooter h4{
-    color: rgb(255, 255, 255);
-    padding-top: 40px;
-    font-size: 25px;
-    text-align: center;
-    text-shadow: 0px 1px 2px rgb(99, 94, 94);
-}
 section.contact {
     
     margin-bottom:60px;
-  width:500px;
+    width:500px;
     padding-bottom: 10px;
-
- padding-top: 90px;
- width: 45rem;
+    padding-top: 90px;
+    width: 45rem;
     margin-left: 60px;
-    
-   
- 
 }
  section.contact .heading{
      font-family: 'Lato', sans-serif;
