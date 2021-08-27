@@ -422,10 +422,10 @@ section.about .container{
   
 }
 section.about .container .left h1{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-left: 60px;
-    padding-top: 160px;
-    font-size: 67px;
+    padding-top: 120px;
+    font-size: 75px;
     font-weight: 400;
     margin-top: 80px;
     
@@ -442,7 +442,7 @@ section.about .container .left h1{
     padding-bottom: 15px;
     word-spacing: 2.3px;
     letter-spacing: 1.5px;
-    font-size: 50px;
+    font-size: 60px;
  }
  .about table{
     
@@ -476,12 +476,12 @@ section.about .container .left h1{
     
  }
  section.skill .container .right{
-    margin-right: 380px;
+    margin-right: 420px;
  }
  section.skill .container.right h1{
     padding-bottom: 50px;
     padding-left:0px;
-    font-size: 58px;
+    font-size: 64px;
     font-weight: 600;
     
    
@@ -504,7 +504,7 @@ section.about .container .left h1{
     padding-top: 10px;
     padding-bottom: 100px;
  }
-   section.works .container{
+section.works .container{
     padding: 110px 0px;
     padding-bottom: 40px;
 }
@@ -525,34 +525,29 @@ section.works .card{
     text-align: center;
     padding: 2px;
     margin-bottom: 50px;
-    margin-left: 120px;
- 
-}
-section.works .container .card-size{
-    width:34rem;
-   
+    margin-left: 200px;
+    
 }
 
 section.works  .card h5{
     font-weight: 500;
-    padding:10px;
     padding-bottom: 10px;
-    font-size: 50px;
- 
+    font-size: 29px;
+    font-family: 'Merriweather', serif;
+    border-bottom: 2px solid rgb(161, 161, 161);
 }
 section.works  .card p{
    font-weight: 160;
-   color:lightslategrey;
+   color:#5a83af;
    padding-top: 10px;
-   line-height: 1.2;
-   font-size: 42px;
+   line-height: 1.5;
+   font-size: 27px;
    padding-bottom: -20px;
    font-family: 'Padauk', sans-serif;
 }
 section.works  .card a{
-    font-size: 38px;
-} 
-
+    font-size: 27px;
+}
 section.contact {
     
     margin-bottom:60px;
